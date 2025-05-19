@@ -1,0 +1,139 @@
+*{
+    color: white;
+}
+body {
+
+    /*comando para a cor de fundo:
+background-color:lightseagreen;
+*/
+background: linear-gradient(to bottom, #383F5F, #416B81, #427085, #447689);
+
+}
+
+
+h2, h3 {
+    text-align: center;
+}
+
+nav{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Força a cor branca */
+  }
+  .navbar-nav .nav-link.active {
+    color: white !important; /* Cor branca */
+    font-weight: bold !important; /* Negrito apenas no item ativo */
+  }
+
+  
+.row {
+    margin-bottom: 40px;
+}
+
+/*para criar uma classe à frente do col escrevo o nome da classe que quero, por ex. animal, e depois dou aqui a indicação.*/
+.rodape {
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    
+}
+
+.bandas {
+text-align: center;
+}
+
+.faixa-laranja{
+    background-color: #FF6600; 
+  padding: 15px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.faixa-laranja a {
+    margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+
+.dia12 {
+    color: black;
+    background-color: #FF6600;
+    padding: 260px 20px;
+    text-align: center;
+    
+}
+
+.dia13 {
+    color: black;
+    background-color:#FFC61B;
+    padding: 260px 20px;
+    text-align: center;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.texto {
+    position: absolute;
+    top: 330px;
+    left: 40px;
+    width: 30%;
+
+}
+
+.destaque {
+    position: relative;
+}
+
+.btn {
+  background-color: #FF6600;
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+}
+
+
+
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.redesoficiais {
+  font-size: 30px;
+}
+
+
+.informacao {
+  font-size: 20px;
+}
+
+.locais {
+  font-size: 25px;
+  text-align: center;
+}
+
+.semlinha a {
+  text-decoration: none;
+}
+
+.margem {
+  margin-bottom: 0px;
+}
