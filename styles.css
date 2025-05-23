@@ -137,3 +137,20 @@ body {
 .margem {
   margin-bottom: 0px;
 }
+
+@media (max-width: 1400px) { 
+  .texto {top: 260px;}
+ }
+
+ @media (max-width: 1200px) { 
+  .texto {top: 200px;}
+ }
+
+ @media (max-width: 991px) { 
+  .texto {top: 35px;}
+ }
+
+ @media (max-width: 768px) {
+  .texto {width: 95%;}
+ }
+
